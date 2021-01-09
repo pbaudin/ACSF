@@ -1,0 +1,61 @@
+# FONTLOG for the Festive Advanced Cross-Stitch Fonts #
+
+This file provides detailed information on the ACSF-Festive font Software.
+This information should be distributed along with the ACSF-Festive font files
+(acsf-festive-5pt.ttf and acsf-festive-5pt-light.ttf) and any derivative
+works.
+
+# Basic Font Information #
+
+ACSF-Festive are two similar rock'n roll cross-stitch fonts designed by P. Baudin.
+- acsf-festive-5pt.ttf (cross-stitches placed in a grid)
+- acsf-festive-5pt-light.ttf (cross-stitches without grid)
+
+ACSF-Festive is a Unicode typeface that supports languages that use the Latin
+script and requires the OpenType feature `calt` in addition to the classic
+kerning.
+
+Even the fonts don't contain any ligature, they support partially the Latin-1
+Unicode range. The fonts are incomplete but contains the letters used in most
+alphabets of European Latin languages (diacritic characters included), Czech
+letters with inverted hat, the German eszett ligature and specific letters of
+some Scandinave alphabets.
+
+The supported characters are:
+- numerics:  `0 1 2 3 4 5 6 7 8 9 ° / + - * %`
+- uppercase: `A B C D E F G H I J K L M N O P Q R S T U V W X Y Z`
+- lowercase: `a b c d e f g h i j k l m n o p q r s t u v w x y z`
+- circumflex: `Â Ê Î Ô Û â ê î ô û`
+- acute: `Á É Í Ó Ú á é í ó ú`
+- grave: `À È Ì Ò Ù à è ì ò ù`
+- dieris: `Ä Ë Ï Ö Ü Ÿ ä ï ë ö ü ÿ`
+- tilde: `Ã Õ Ñ ã ñ õ`
+- caron: `Č Š Ž č š ž`
+- misc: `Å ẞ Ç Ø Æ Œ å ß ç æ œ ø`
+- other: `¿ ? ¡ ! , ; . : ' #`
+
+The fonts contains some special characters:
+- `~`: 1pt space
+- `_`: 20pt of cross stiches
+- `$`: cuts a ligature (including kerning) and doesn't introduce any space.
+       That character can be used to get the rock'n roll effect: inserting one
+       or more `$` at the begining of words may change their layout.
+
+# ChangeLog #
+
+10 Jan 2021 (by P. Baudin) version 1.1
+- First Public Release of ACSF-Festive fonts.
+
+03 Apr 2017 (by P. Baudin) version 1.0
+- Initial design of ACSF-Festive fonts derived from cross-stitch charts
+  published before 1930.
+
+# Acknowledgements #
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Baudin P.
+E: via the web-address https://github.com/pbaudin/ACSF
+W: https://github.com/pbaudin/ACSF
+D: Original Designer
