@@ -13,7 +13,7 @@ Copyright (C) 2017-2021, P. Baudin (https://github.com/pbaudin/ACSF)
 
 # Advanced Cross-Stitch Fonts #
 
-The cursive style offered by most of these fonts should delight all cross-stitch lovers. If anyone needs to be convinced, they just have to take a look at the [Advanced Cross-Stitch Font Gallery](examples/Advanced-Cross-Stitch-Font-Gallery.pdf).
+The cursive style offered by most of these fonts should delight all cross-stitch lovers. If anyone needs to be convinced, they just have to take a look at the [Advanced Cross-Stitch Font Gallery](examples/Advanced-Cross-Stitch-Font-Gallery.pdf) or perform a [live test](https://pbaudin.github.io/ACSF/tool/cross-stitch-your-own-text.html).
 
 The fonts are incomplete but contains all the letters used in the various Latin language alphabets (including diacritics), Czech letters with inverted hat, the German eszett ligature, and letters specific to certain Scandinavian alphabets.
 
@@ -25,7 +25,7 @@ A demonstration tool is available inside this GitHub repository.
 It allows you to create the cross-stitch chart of your own text from a web browser like `Firefox` or `Chrome`.
 The tool can be used to get a quick look at the font faces and their ligatures thus designed.
 
-Have fun with these Advanced Cross-Stitch Fonts!
+Have fun with these Advanced Cross-Stitch Fonts and the [live test](https://pbaudin.github.io/ACSF/tool/cross-stitch-your-own-text.html) tool!
 
 ### Special characters ###
 
