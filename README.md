@@ -7,13 +7,13 @@ Copyright (C) 2017-2021, P. Baudin (https://github.com/pbaudin/ACSF)
 <p>
     <img src="https://img.shields.io/badge/Contains-2x_7_Avanced_Cross--Stitch_Fonts_and_a_demonstration_tool-green" /> </br>
     <img src="https://img.shields.io/badge/Font_License-SIL_Open_Font_License_1.1-green" /> </br>
-    <img src="https://img.shields.io/badge/Tool_License-MIT-green" /> </br>
+    <img src="https://img.shields.io/badge/Tool_License-MIT_License-green" /> </br>
     <img src="https://img.shields.io/badge/Built_with-FontForge_and_Ocaml_libraries-green" />
 </br>
 
 # Advanced Cross-Stitch Fonts #
 
-The cursive style offered by most of these fonts should delight all cross-stitch lovers. If anyone needs to be convinced, they just have to take a look at the [Advanced Cross-Stitch Font Gallery](examples/Advanced-Cross-Stitch-Font-Gallery.pdf) or perform a [live test](https://pbaudin.github.io/ACSF/tool/cross-stitch-your-own-text.html).
+The cursive style offered by most of these fonts should delight all cross-stitch lovers. If anyone needs to be convinced, they just have to take a look at the [Advanced Cross-Stitch Font Gallery](ACSF-Gallery.md) or perform a [live test](https://pbaudin.github.io/ACSF/tool/cross-stitch-your-own-text.html).
 
 The fonts are incomplete but contains all the letters used in the various Latin language alphabets (including diacritics), Czech letters with inverted hat, the German eszett ligature, and letters specific to certain Scandinavian alphabets.
 
