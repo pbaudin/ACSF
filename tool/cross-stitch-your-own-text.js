@@ -567,11 +567,11 @@ function textACTION(value){
     default: break;
     }
     switch(value) {
-    case "Characters": break;
+    case "Ligatures": break;
     default: alphabetACTION(false); break;
     }
     switch(value) {
-    case "Characters": alphabetACTION(true); break;
+    case "Ligatures": alphabetACTION(true); break;
     case "LaRose": textLaRose(msg1); break;
     default: entryFORCE("1"); break;
     }

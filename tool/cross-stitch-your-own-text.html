@@ -353,15 +353,17 @@ textarea {
         <div id="upper">List of special characters:</div>
         <div id="char"> '~' : 1pt space <span id="Stitch">~</span></div>
         <div id="info"> '_' : 20pt of cross stitches <span id="Stitch">_</span></div>
-        <div id="info"> '$' : cuts a ligature, including kerning.</div>
+        <div id="info"> '$' : cuts a ligature, including kerning (i.e when the kerning feature introduces a space between two consecutive characters, inserting a '$' between will remove that space).</div>
         <div id="lower">Words have only one layout except with the rock'n roll font ('Festive').
         Inserting one or more '$' at the begining of words may change their layout.
         Selects the 'Normal' font to see the special characters of your text.</div>
         </br>
-        <div id="info">The +/- entry buttons allows you to select the number of text aeras.
+        <div id="info">The +/- buttons allows you to select the number of modifiable text areas, their width and the font size.
           The height of the text areas can be resized moving their bottom-right corner.</div>
         </br>
         <div id="info">Notice that the fonts are incomplete and use contextual 'TrueType' features for ligatures that can be not fully supported by some web browsers.</div>
+        </br>
+        <div id="info">It would be a shame to cross-stitch a text with a spelling mistake! So, a right click into a modifiable text area can be used to turn on/off the spell checker, select the checked language or add dictionaries from a menu set by the browser (these features are managed by your browser; the cross-stitch tool has nothing to do with them).</div>
         </br>
       </div>
       <div>
@@ -380,7 +382,7 @@ textarea {
           <option>Tilde</option>
           <option>Caron</option>
           <option>Misc</option>
-          <option>Characters</option>
+          <option>Ligatures</option>
           <option value="LaRose">French - La Rose</option>
         </select>
       <span id="action">Cross-stitch font:</span>
