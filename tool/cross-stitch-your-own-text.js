@@ -28,9 +28,33 @@
 /*                                                                               */
 /*********************************************************************************/
 
+function hideACTION(id) {
+    document.getElementById(id).style.display = "none";
+}
+function showACTION(id) {
+    document.getElementById(id).style.display = "block";
+}
+function languageACTION(lang) {
+    document.getElementById("languageSELECT").name = 'modified';
+    hideACTION("helpDIV_English");
+    hideACTION("helpDIV_French");
+    switch (lang) {
+    case "French": showACTION("helpDIV_French"); break;
+    default: showACTION("helpDIV_English"); break;
+    }
+}
 function helpACTION() {
     var obj = document.getElementById("helpDIV");
-    obj.style.display = (obj.style.display==="block")?"none":"block";
+    if (obj.style.display==="block") {
+        obj.style.display = "none";
+    }
+    else {
+        var sel = document.getElementById("languageSELECT");
+        if (sel.name=='predefined') {
+            languageACTION(sel.value);
+        }
+        obj.style.display = "block";
+    }
 }
 function msgONINPUT(msg){
     document.getElementById("textSELECT").name = 'modified';
@@ -662,4 +686,5 @@ window.onload=function () {
     fontFORCE(document.getElementById("fontSELECT").value);
     entryFORCE(document.getElementById("entrySELECT").value);
     widthFORCE(parseInt(document.getElementById("widthVALUE").innerHTML));
+    languageACTION("English");
 }

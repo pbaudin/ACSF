@@ -257,6 +257,8 @@ SOFTWARE.
     margin: 15px;
 }
 #helpDIV {
+    padding: 5px;
+    border: 1px maroon solid;
     text-align: left;
     font-family: "Arial";
     font-size: 16px;
@@ -350,20 +352,52 @@ textarea {
         <input type="button" value="+" id="plusSIZE" onclick="sizePLUS(this,1,25)">
       </span>
       <div id="helpDIV">
-        <div id="upper">List of special characters:</div>
-        <div id="char"> '~' : 1pt space <span id="Stitch">~</span></div>
-        <div id="info"> '_' : 20pt of cross stitches <span id="Stitch">_</span></div>
-        <div id="info"> '$' : cuts a ligature, including kerning (i.e when the kerning feature introduces a space between two consecutive characters, inserting a '$' between will remove that space).</div>
-        <div id="lower">Words have only one layout except with the rock'n roll font ('Festive').
-        Inserting one or more '$' at the begining of words may change their layout.
-        Selects the 'Normal' font to see the special characters of your text.</div>
+        <div id="helpDIV_Language">
+          <span id="action">Language:</span>
+          <select id="languageSELECT" name="predefined" onchange="languageACTION(this.value)">
+            <option selected="selected">English</option>
+            <option>French</option>
+          </select>
+        </div>
         </br>
-        <div id="info">The +/- buttons allows you to select the number of modifiable text areas, their width and the font size.
-          The height of the text areas can be resized moving their bottom-right corner.</div>
-        </br>
-        <div id="info">Notice that the fonts are incomplete and use contextual 'TrueType' features for ligatures that can be not fully supported by some web browsers.</div>
-        </br>
-        <div id="info">It would be a shame to cross-stitch a text with a spelling mistake! So, a right click into a modifiable text area can be used to turn on/off the spell checker, select the checked language or add dictionaries from a menu set by the browser (these features are managed by your browser; the cross-stitch tool has nothing to do with them).</div>
+
+        <div id="helpDIV_French">
+          <div id="upper">Liste des charactères spéciaux:</div>
+          <div id="char"> &#8226 '~' : 1 point d'espace <span id="Stitch">~</span></div>
+          <div id="info"> &#8226 '_' : 20 points de croix <span id="Stitch">_</span></div>
+          <div id="info"> &#8226 '$' : césure de ligatures et crénages (ex. lorsque le crénage introduit une espace entre deux caractères consécutifs, l'insertion du caractère «$» entre les deux suprime cet espace).</div>
+          <div id="lower">Les lettres des mots n'ont qu'une seule disposition sauf avec la police rock'n roll «Festive». L'insertion d'un ou plusieurs «$» au début des mots peut modifier la disposition de leurs caractères. Sélectionner la police dite «Normal» pour voir les caractères spéciaux de votre texte.</div>
+          </br>
+          <div id="info">Les boutons «+/-» vous permettent de sélectionner le nombre de zones de texte modifiables, leur largeur et la taille de la police. La hauteur des zones de texte peut être redimensionnée en déplaçant leur coin inférieur droit.</div>
+          </br>
+          <div id="info">Notez que les polices sont incomplètes et utilisent des fonctionnalités contextuelles 'TrueType' pour les ligatures qui ne sont pas prises en charge par tous les navigateurs Web.</div>
+          </br>
+          <div id="info">Ce serait dommage de broder un texte avec une faute d'orthographe ! Le clic droit dans les zones de texte modifiable peut être utilisé pour activer/désactiver le correcteur orthographique, sélectionner la langue cochée ou ajouter des dictionnaires à partir d'un menu proposé par le navigateur (ces fonctionnalités sont gérées par votre navigateur; l'outil de point compté n'a rien à voir avec elles).</div>
+          </br>
+          <div id="info">Enfin, la licence d'utilisation cet outil de démonstration et celles des polices de caractères ne limite en rien l'usage que vous pouvez faire des grilles de points comptés ainsi obtenues.
+          Bon divertissement avec ces <a href="https://github.com/pbaudin/ACSF">polices de caractères pour points comptés!</a></div>
+        </div>
+
+        <div id="helpDIV_English">
+          <div id="upper">List of special characters:</div>
+          <div id="char"> &#8226 '~': 1pt space <span id="Stitch">~</span></div>
+          <div id="info"> &#8226 '_': 20pt of cross stitches <span id="Stitch">_</span></div>
+          <div id="info"> &#8226 '$': cuts a ligature, including kerning (i.e when the kerning feature introduces a space between two consecutive characters, inserting a '$' between will remove that space).</div>
+          <div id="lower">Words have only one layout except with the rock'n roll font «Festive».
+            Inserting one or more «$» at the start of words may change their layout.
+            Selects the «Normal» font to see the special characters of your text.</div>
+          </br>
+          <div id="info">The «+/-» buttons allows you to select the number of modifiable text areas, their width and the font size.
+            The height of the text areas can be resized moving their bottom-right corner.</div>
+          </br>
+          <div id="info">Notice that the fonts are incomplete and use contextual 'TrueType' features for ligatures that are not supported by all web browsers.</div>
+          </br>
+          <div id="info">It would be a shame to cross-stitch a text with a spelling mistake! A right click into a modifiable text area can be used to turn on/off the spell checker, select the checked language or add dictionaries from a menu set by the browser (these features are managed by your browser; the cross-stitch tool has nothing to do with them).</div>
+          </br>
+          <div id="info">Finally, the license of this demonstration tool and those of the fonts don't restrict the use that you can make of the cross stitch charts thus obtained.
+            Have fun with these <a href="https://github.com/pbaudin/ACSF">Advanced Cross-Stitch Fonts!</a></div>
+        </div>
+        
         </br>
       </div>
       <div>
@@ -442,12 +476,12 @@ textarea {
       </div>
    </div>
    </br>
+   <footer>
    <div id="info"> Copyright (C) 2017-2021, P. Baudin (<a href="https://github.com/pbaudin/ACSF">https://github.com/pbaudin/ACSF</a> ) </div>
    </br>
-   <div id="info"> Terms of use:
-     <ul><li> the <a href="https://scripts.sil.org/OFL">SIL Open Font License</a> <a href="https://scripts.sil.org/OFL_web">version 1.1</a> applies to the Advanced Cross-Stitch Fonts,</li>
-       <li> the <a href="https://spdx.org/licenses/MIT.html">MIT License</a> applies to this HTML/JavaScript demonstration tool.</li>
-     </ul>
-   </div>
+   <div id="info"> Terms of use (there is no limitation on the use of your cross-stitch patterns):</div>
+   <div id="info"> &#8226 the <a href="https://scripts.sil.org/OFL">SIL Open Font License</a> <a href="https://scripts.sil.org/OFL_web">version 1.1</a> applies to the Advanced Cross-Stitch Fonts,</div>
+   <div id="info"> &#8226 the <a href="https://spdx.org/licenses/MIT.html">MIT License</a> applies to this HTML/JavaScript demonstration tool (version 1.1).</div>
+   </footer>
 </body>
 </html>
