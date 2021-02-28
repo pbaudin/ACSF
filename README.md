@@ -20,7 +20,12 @@ The fonts are incomplete but contains all the letters used in the various Latin 
 
 At the start of their design (in 2017), the contextual features of the `TrueType` and `OpenType` fonts (such as `calt`, `cimf` or `ccmp`) used for ligatures was not supported by many software, including text editors and web browsers. Thanks to `LibreOffice` editors and web browsers `Firefox` and `Chrome` that support these fonts from the begining (the given `pdf` files given as examples were edited with `LibreOffice` [`Writer`](https://www.libreoffice.org/)).
 
+### Download ###
+
 These Advanced Cross-Stitch Fonts are published with a [license](LICENSE.md) that allows you to use the cross-stitch charts that you produce for any purpose, even commercially.
+
+Feel free to download the latest release of the [Advanced Cross-Stitch Fonts](https://github.com/pbaudin/ACSF/archive/v1.1.zip).
+
 
 ## DIY: Cross Stitch your own Text ##
 
