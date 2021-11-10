@@ -580,9 +580,9 @@ function textACTION(value){
     case "Uppercase": msg1.value="A~B~C~D~E~F~G~H~I~J~K~L~M\n"+"N~O~P~Q~R~S~T~U~~VW~~X~YZ";
         widthFORCE(6); sizeTEXT(msg1,2); break;
     case "Vowels": msg1.value="A~E~I~O~U~Y Æ~Œ a~e~i~o~u~y æ~œ"; break;
-    case "Cedilla": msg1.value="Çç"; break;
+    case "Cedilla": msg1.value="Ç~ç"; break;
     case "Circumflex": msg1.value="Â~Ê~Î~Ô~Û â~ê~î~ô~û"; break;
-    case "Acute": msg1.value="Á~É~~ÍÓ~Ú á~é~í~ó~ú"; break;
+    case "Acute": msg1.value="Á~É~Í~Ó~Ú á~é~í~ó~ú"; break;
     case "Dieris": msg1.value="Ä~Ë~Ï~Ö~Ü~Ÿ ä~ë~ï~ö~ü~ÿ"; break;
     case "Grave": msg1.value="À~È~Ì~Ò~Ù à~è~ì~ò~ù"; break;
     case "Tilde": msg1.value="Ã~Õ~Ñ ã~ñ~õ"; break;
