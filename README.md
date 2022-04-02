@@ -8,7 +8,7 @@ Copyright (C) 2017-2021, P. Baudin (https://github.com/pbaudin/ACSF)
     <img src="https://img.shields.io/badge/Contains-2x_7_Avanced_Cross--Stitch_Fonts_and_a_demonstration_tool-green" /> </br>
     <img src="https://img.shields.io/badge/Font_License-SIL_Open_Font_License_1.1-green" /> </br>
     <img src="https://img.shields.io/badge/Tool_License-MIT_License-green" /> </br>
-    <img src="https://img.shields.io/badge/Built_with-FontForge_and_Ocaml_libraries-green" />
+    <img src="https://img.shields.io/badge/Built_with-FontForge_and_OCaml_libraries-green" />
 </br>
 
 # Advanced Cross-Stitch Fonts #
@@ -90,15 +90,15 @@ That allows rapid code development.
 With this software, it was possible to design the two first fonts involving only ligature pairs and kerning pairs, but that is too restrictive.
 
 To handle more complex fonts, it is necessary to use contextual `TrueType` (or `OpenType`) features.
-A new version of that sofware was writen in [`Ocaml`](https://ocaml.org/) to manage these features in using
+A new version of that sofware was written in [`OCaml`](https://ocaml.org/) to manage these features in using
 the [`Lymp`](https://github.com/dbousque/lymp) library allowing you to use `Python` functions and objects of `FontForge` API from `OCaml` world.
-That software version contains an `Ocaml` layer performing the bindings to `FontForge`.
+That software version contains an `OCaml` layer performing the bindings to `FontForge`.
 The `FontForge` API imposes type constraints between the arguments of the functions managing the contextual font tables.
-In order to offer an `Ocaml` API as close as the `FontForge` API, the use of [Generalized Algebraic Data Type](https://caml.inria.fr/pub/docs/manual-ocaml/gadts.html) of `Ocaml` was seen as an opportunity.
-That has not been so much used due to some bugs in the `Lymp` library raised by the hudge number of calls from `Ocaml` to `Python`.
-A work around has been found in generating an intermediate file (specifying the [`OpenType Feature Data`](https://opentypecookbook.com/putting-it-together/) to use in a `.fea` file) to build the final fonts from `FontForge Python` API and the `Ocaml` bindings.
+In order to offer an `OCaml` API as close as the `FontForge` API, the use of [Generalized Algebraic Data Type](https://caml.inria.fr/pub/docs/manual-ocaml/gadts.html) of `OCaml` was seen as an opportunity.
+That has not been so much used due to some bugs in the `Lymp` library raised by the hudge number of calls from `OCaml` to `Python`.
+A work around has been found in generating an intermediate file (specifying the [`OpenType Feature Data`](https://opentypecookbook.com/putting-it-together/) to use in a `.fea` file) to build the final fonts from `FontForge Python` API and the `OCaml` bindings.
 
-In the meantime, `Fontforge` API migrated to `Python 3` and the `Lymp` library was no more able to perform the binding with newer versions of `Ocaml` compiler and various libraries.
+In the meantime, `Fontforge` API migrated to `Python 3` and the `Lymp` library was no more able to perform the binding with newer versions of `OCaml` compiler and various libraries.
 Nevertheless, with few effort the `Lymp` library was easily replaced by the [`PyMl`](https://github.com/thierry-martinez/pyml) library.
 
 <p>
