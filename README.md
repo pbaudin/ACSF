@@ -101,6 +101,9 @@ A work around has been found in generating an intermediate file (specifying the 
 In the meantime, `Fontforge` API migrated to `Python 3` and the `Lymp` library was no more able to perform the binding with newer versions of `OCaml` compiler and various libraries.
 Nevertheless, with few effort the `Lymp` library was easily replaced by the [`PyMl`](https://github.com/thierry-martinez/pyml) library.
 
+Then, the `OCaml` bindings of the `FontForge` API have been extracted from the developped software and are available from the [`fontforge-of-ocaml`](https://github.com/pbaudin/fontforge-of-ocaml) library.
+
+
 <p>
     <img src="images/author.png">
 </p>
