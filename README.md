@@ -90,7 +90,7 @@ That allows rapid code development.
 With this software, it was possible to design the two first fonts involving only ligature pairs and kerning pairs, but that is too restrictive.
 
 To handle more complex fonts, it is necessary to use contextual `TrueType` (or `OpenType`) features.
-A new version of that sofware was written in [`OCaml`](https://ocaml.org/) to manage these features in using
+A new version of that software was written in [`OCaml`](https://ocaml.org/) to manage these features in using
 the [`Lymp`](https://github.com/dbousque/lymp) library allowing you to use `Python` functions and objects of `FontForge` API from `OCaml` world.
 That software version contains an `OCaml` layer performing the bindings to `FontForge`.
 The `FontForge` API imposes type constraints between the arguments of the functions managing the contextual font tables.

@@ -1,6 +1,6 @@
 /*********************************************************************************/
 /*                                                                               */
-/* This file is part of the Font Sofware ACSF dedicated to the design of         */
+/* This file is part of the Font Software ACSF dedicated to the design of         */
 /* Advanced Cross-Stitch Fonts.                                                  */
 /*                                                                               */
 /* MIT License                                                                   */
