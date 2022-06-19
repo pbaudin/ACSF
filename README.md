@@ -32,6 +32,8 @@ A demonstration tool is available inside this GitHub repository.
 It allows you to create the cross-stitch chart of your own text from a web browser like `Firefox` or `Chrome`.
 The tool can be used to get a quick look at the font faces and their ligatures thus designed.
 
+Be carefull when applying color attributes to some characters (as in the [recipe example](examples/Gallant-French-crème-brûlée.pdf)), that brakes the eventual ligature existing at their beginning and at their end.
+
 Have fun with these Advanced Cross-Stitch Fonts and the [live test](https://pbaudin.github.io/ACSF/tool/cross-stitch-your-own-text.html) tool!
 
 ### Special characters ###
@@ -64,7 +66,7 @@ Other | `¿ ? ¡ ! , ; . : ' #`
 
 A web site provides from several years a `Cross Stitch Writing` tool to make a charted design out of your own text.
 Some of the proposed fonts attracted my attention because most of their letters are joinable, but some letters with the usual diacritics of Latin language alphabets are missing.
-So, even in English, it is not possible to get the chart of the [crème brûlée recipe](https://cooking.nytimes.com/recipes/9039-vanilla-creme-brulee) from these fonts!
+So, even in English, it is not possible to get the chart of the [crème brûlée recipe](examples/Gallant-French-crème-brûlée.pdf) from these fonts!
 
 The last point, but not the least, concerns the terms of use of that tool.
 They do not allow you to distribute the charts that you produced with this tool to your friends, even for free!
