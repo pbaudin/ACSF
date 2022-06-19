@@ -2,7 +2,7 @@
     <img src="images/acsf.png">
 </p>
 
-Copyright (C) 2017-2021, P. Baudin (https://github.com/pbaudin/ACSF)
+Copyright (C) 2017-2022, P. Baudin (https://github.com/pbaudin/ACSF)
 
 <p>
     <img src="https://img.shields.io/badge/Contains-2x_7_Avanced_Cross--Stitch_Fonts_and_a_demonstration_tool-green" /> </br>
@@ -18,13 +18,13 @@ If anyone needs to be convinced, they just have to take a look at the [Advanced 
 
 The fonts are incomplete but contains all the letters used in the various Latin language alphabets (including diacritics), Czech letters with inverted hat, the German eszett ligature, and letters specific to certain Scandinavian alphabets.
 
-At the start of their design (in 2017), the contextual features of the `TrueType` and `OpenType` fonts (such as `calt`, `cimf` or `ccmp`) used for ligatures was not supported by many software, including text editors and web browsers. Thanks to `LibreOffice` editors and web browsers `Firefox` and `Chrome` that support these fonts from the begining (the given `pdf` files given as [examples](ACSF-Gallery.md) were edited with `LibreOffice` [`Writer`](https://www.libreoffice.org/)).
+At the start of their design (in 2017), the contextual features of the `TrueType` and `OpenType` fonts (such as `calt`, `cimf` or `ccmp`) used for ligatures was not supported by many software, including text editors and web browsers. Thanks to  [`LibreOffice`](https://www.libreoffice.org/) editors and web browsers `Firefox` and `Chrome` that support these fonts from the beginning (the given `pdf` files given as [examples](ACSF-Gallery.md) were edited with `LibreOffice` [`Writer`](images/acsf-lowriter.png)).
 
 ### Download ###
 
 These Advanced Cross-Stitch Fonts are published with a [license](LICENSE.md) that allows you to use the cross-stitch charts that you produce for any purpose, even commercially.
 
-Feel free to download the latest release of the `Advanced Cross-Stitch Fonts` from [GitHub](https://github.com/pbaudin/ACSF/archive/v1.1.zip) or [dafont.com](https://www.dafont.com/p-baudin.d9754).
+Feel free to download the latest release of the `Advanced Cross-Stitch Fonts` from [this GitHub repository](https://github.com/pbaudin/ACSF/archive/v1.1.zip) (recommended) or [dafont.com](https://www.dafont.com/p-baudin.d9754).
 
 ## DIY: Cross Stitch your own Text ##
 
@@ -46,9 +46,9 @@ These special characters are part of all Advanced Cross-Stitch Fonts.
 
 ### Supported characters ###
 
-Category | Charaters
+Category | Characters
 ---------|----------
-Numerics | `0 1 2 3 4 5 6 7 8 9 ° / + - * %`
+Maths | `0 1 2 3 4 5 6 7 8 9 ° / + - * %`
 Uppercase | `A B C D E F G H I J K L M N O P Q R S T U V W X Y Z`
 Lowercase | `a b c d e f g h i j k l m n o p q r s t u v w x y z`
 Circumflex | `Â Ê Î Ô Û â ê î ô û`
@@ -77,14 +77,14 @@ The design of cursive cross-stitch fonts without such a restriction would deligh
 The first fonts are derived from the volume 1 of the book `Cross stitch letters BIBLE des lettres au point de croix` (authored by Valérie LEJEUNE - EAN 9782756503059) which references many alphabet primers (about 800).
 Since all of them were published before 1930, these patterns are in the [public domain](https://en.wikipedia.org/wiki/Public_domain).
 
-In order to share this common cultural work with all, the [SIL Open Font License](https://scripts.sil.org/ofl) version 1.1 ([OFL 1.1](https://scripts.sil.org/OFL_web)) applies to the Advanced Cross-Stitch Fonts.
+In order to share this work (done from our common cultural heritage) with everyone, the [SIL Open Font License](https://scripts.sil.org/ofl) version 1.1 ([OFL 1.1](https://scripts.sil.org/OFL_web)) applies to the Advanced Cross-Stitch Fonts.
 From such a license, you can use the charts that you will produced with these fonts for any purpose, even commercially.
 
 
 ### Development ###
 
 A cursive font requires to design a lot of glyphs for ligatures, and this is especially true the smaller the font size (i.e. lowercase from 4 to 5 points high).
-So it is recommanded to use a tool to create such a font.
+So it is recommended to use a tool to create such a font.
 
 The first designed font was build in scripting [`FontForge`](https://fontforge.org/docs/scripting/python.html) with the `Python 2` API in 2017.
 `Python` is a dynamically typed language since the types are defined from values ​​obtained at runtime.
