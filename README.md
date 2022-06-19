@@ -5,7 +5,7 @@
 Copyright (C) 2017-2023, P. Baudin (https://github.com/pbaudin/ACSF)
 
 <p>
-    <img src="https://img.shields.io/badge/Contains-2x_7_Avanced_Cross--Stitch_Fonts_and_a_demonstration_tool-green" /> </br>
+    <img src="https://img.shields.io/badge/Contains-2x_8_Avanced_Cross--Stitch_Fonts_and_a_demonstration_tool-green" /> </br>
     <img src="https://img.shields.io/badge/Font_License-SIL_Open_Font_License_1.1-green" /> </br>
     <img src="https://img.shields.io/badge/Tool_License-MIT_License-green" /> </br>
     <img src="https://img.shields.io/badge/Built_with-FontForge_and_OCaml_libraries-green" />
@@ -24,7 +24,7 @@ At the start of their design (in 2017), the contextual features of the `TrueType
 
 These Advanced Cross-Stitch Fonts are published with a [license](LICENSE.md) that allows you to use the cross-stitch charts that you produce for any purpose, even commercially.
 
-Feel free to download the latest release of the `Advanced Cross-Stitch Fonts` from [this GitHub repository](https://github.com/pbaudin/ACSF/archive/v1.1.zip) (recommended) or [dafont.com](https://www.dafont.com/p-baudin.d9754).
+Feel free to download the latest release of the `Advanced Cross-Stitch Fonts` from [this GitHub repository](https://github.com/pbaudin/ACSF/archive/v1.2.zip) (recommended) or [dafont.com](https://www.dafont.com/p-baudin.d9754).
 
 ## DIY: Cross Stitch your own Text ##
 
