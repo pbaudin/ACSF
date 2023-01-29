@@ -2,7 +2,7 @@
     <img src="images/acsf.png">
 </p>
 
-Copyright (C) 2017-2022, P. Baudin (https://github.com/pbaudin/ACSF)
+Copyright (C) 2017-2023, P. Baudin (https://github.com/pbaudin/ACSF)
 
 <p>
     <img src="https://img.shields.io/badge/Contains-2x_7_Avanced_Cross--Stitch_Fonts_and_a_demonstration_tool-green" /> </br>
