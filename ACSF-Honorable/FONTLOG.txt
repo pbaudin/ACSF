@@ -1,17 +1,17 @@
-# FONTLOG for the Adorable Advanced Cross-Stitch Fonts #
+# FONTLOG for the Honorable Advanced Cross-Stitch Fonts #
 
-This file provides detailed information on the ACSF-Adorable font Software.
-This information should be distributed along with the ACSF-Adorable font files
-(acsf-adorable-4pt.ttf and acsf-adorable-4pt-light.ttf) and any derivative
+This file provides detailed information on the ACSF-Honorable font Software.
+This information should be distributed along with the ACSF-Honorable font files
+(acsf-honorable-6pt.ttf and acsf-honorable-6pt-light.ttf) and any derivative
 works.
 
 # Basic Font Information #
 
-ACSF-Adorable are two similar cursive cross-stitch fonts designed by P. Baudin.
-- acsf-adorable-4pt.ttf (cross-stitches placed in a grid)
-- acsf-adorable-4pt-light.ttf (cross-stitches without grid)
+ACSF-Honorable are two similar cursive cross-stitch fonts designed by P. Baudin.
+- acsf-honorable-6pt.ttf (cross-stitches placed in a grid)
+- acsf-honorable-6pt-light.ttf (cross-stitches without grid)
 
-ACSF-Adorable is a Unicode typeface that supports languages that use the Latin
+ACSF-Honorable is a Unicode typeface that supports languages that use the Latin
 script and requires the OpenType feature ccmp in addition to the classic
 kerning and ligature features.
 
@@ -42,14 +42,13 @@ The fonts contains some special characters:
 # ChangeLog #
 
 17 Apr 2022 (by P. Baudin) version 1.2
-- Minor changes.
+- First Public Release of ACSF-Honorable fonts.
 
 10 Jan 2021 (by P. Baudin) version 1.1
-- First Public Release of ACSF-Adorable fonts.
+- Minor changes.
 
 03 Apr 2017 (by P. Baudin) version 1.0
-- Initial design of ACSF-Adorable fonts derived from cross-stitch charts
-  published before 1930.
+- Initial design of ACSF-Honorable fonts derived from older cross-stitch images.
 
 # Acknowledgements #
 

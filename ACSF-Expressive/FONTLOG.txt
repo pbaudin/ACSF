@@ -41,6 +41,9 @@ The fonts contains some special characters:
 
 # ChangeLog #
 
+17 Apr 2022 (by P. Baudin) version 1.2
+- Minor changes.
+
 10 Jan 2021 (by P. Baudin) version 1.1
 - First Public Release of ACSF-Expressive fonts.
 
