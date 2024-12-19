@@ -9,4 +9,4 @@ There are some examples done using LibreOffice writer:
 
 The gallery is also available in a [PDF format](examples/Advanced-Cross-Stitch-Font-Gallery.pdf).
 
-![ACSF-Gallery](images/acsf-gallery.png)
+![ACSF-Gallery](fonts/acsf-gallery.png)

@@ -24,7 +24,7 @@ At the start of their design (in 2017), the contextual features of the `TrueType
 
 These Advanced Cross-Stitch Fonts are published with a [license](LICENSE.md) that allows you to use the cross-stitch charts that you produce for any purpose, even commercially.
 
-Feel free to download the latest release of the `Advanced Cross-Stitch Fonts` from [this GitHub repository](https://github.com/pbaudin/ACSF/archive/v1.2.zip) (recommended) or [dafont.com](https://www.dafont.com/p-baudin.d9754).
+Feel free to download the latest release of the `Advanced Cross-Stitch Fonts` from [this GitHub repository](https://github.com/pbaudin/ACSF/archive/acsf-v1.2.zip) (recommended) or [dafont.com](https://www.dafont.com/p-baudin.d9754).
 
 ## DIY: Cross Stitch your own Text ##
 
@@ -78,7 +78,7 @@ The first fonts are derived from the volume 1 of the book `Cross stitch letters 
 Since all of them were published before 1930, these patterns are in the [public domain](https://en.wikipedia.org/wiki/Public_domain).
 
 In order to share this work (done from our common cultural heritage) with everyone, the [SIL Open Font License](https://scripts.sil.org/ofl) version 1.1 ([OFL 1.1](https://scripts.sil.org/OFL_web)) applies to the Advanced Cross-Stitch Fonts.
-From such a license, you can use the charts that you will produced with these fonts for any purpose, even commercially.
+From such a license, you can use the charts that you will produce with these fonts for any purpose, even commercially.
 
 
 ### Development ###
