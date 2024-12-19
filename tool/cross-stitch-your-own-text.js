@@ -201,23 +201,32 @@ function textLaRose(msg1){
     var msg2=document.getElementById("msg2TEXTAREA");
     var msg3=document.getElementById("msg3TEXTAREA");
     var msg4=document.getElementById("msg4TEXTAREA");
-    entryFORCE("4");
-    widthFORCE(21);
     var count="______\n";
+    entryFORCE("4");
+    widthFORCE(24);
     switch(msg1.className) {
     case "Honorable": case "HonorableLight":
+        widthFORCE(24);
+        count="_" + count;
         sizeTEXT(msg1,2);sizeTEXT(msg2,4);sizeTEXT(msg3,5);sizeTEXT(msg4,1); break;
     case "Gallant": case "GallantLight":
         count="__" + count;
         sizeTEXT(msg1,2);sizeTEXT(msg2,4);sizeTEXT(msg3,5);sizeTEXT(msg4,1); break;
     case "Divine": case "DivineLight":
+        widthFORCE(25);
+        count="_" + count;
+        sizeTEXT(msg1,2);sizeTEXT(msg2,4);sizeTEXT(msg3,5);sizeTEXT(msg4,1); break;
     case "Expressive": case "ExpressiveLight":
+        widthFORCE(24);
         count="_" + count;
         sizeTEXT(msg1,2);sizeTEXT(msg2,4);sizeTEXT(msg3,5);sizeTEXT(msg4,1); break;
     case "Festive": case "FestiveLight":
         sizeTEXT(msg1,2);sizeTEXT(msg2,4);sizeTEXT(msg3,4);sizeTEXT(msg4,1); break;
     case "Adorable": case "AdorableLight":
+        widthFORCE(27);
+        sizeTEXT(msg1,2);sizeTEXT(msg2,4);sizeTEXT(msg3,5);sizeTEXT(msg4,1); break;
     case "Brave": case "BraveLight":
+       sizeTEXT(msg1,2);sizeTEXT(msg2,4);sizeTEXT(msg3,5);sizeTEXT(msg4,1); break;
     case "Chic": case "ChicLight":
     default:
         count="__" + count;
