@@ -5,7 +5,7 @@
 /*                                                                               */
 /* MIT License                                                                   */
 /*                                                                               */
-/* Copyright (C) 2017-2023, Patrick Baudin (https://github.com/pbaudin/ACSF)     */
+/* Copyright (C) 2017-2021, Patrick Baudin (https://github.com/pbaudin/ACSF)     */
 /*                                                                               */
 /* Permission is hereby granted, free of charge, to any person obtaining a copy  */
 /* of this software and associated documentation files (the "Software"), to deal */
@@ -205,6 +205,10 @@ function textLaRose(msg1){
     entryFORCE("4");
     widthFORCE(24);
     switch(msg1.className) {
+    case "Irresistible": case "IrresistibleLight":
+        widthFORCE(24);
+        count="_" + count;
+        sizeTEXT(msg1,2);sizeTEXT(msg2,4);sizeTEXT(msg3,5);sizeTEXT(msg4,1); break;
     case "Honorable": case "HonorableLight":
         widthFORCE(24);
         count="_" + count;
@@ -226,7 +230,7 @@ function textLaRose(msg1){
         widthFORCE(27);
         sizeTEXT(msg1,2);sizeTEXT(msg2,4);sizeTEXT(msg3,5);sizeTEXT(msg4,1); break;
     case "Brave": case "BraveLight":
-       sizeTEXT(msg1,2);sizeTEXT(msg2,4);sizeTEXT(msg3,5);sizeTEXT(msg4,1); break;
+        sizeTEXT(msg1,2);sizeTEXT(msg2,4);sizeTEXT(msg3,5);sizeTEXT(msg4,1); break;
     case "Chic": case "ChicLight":
     default:
         count="__" + count;
